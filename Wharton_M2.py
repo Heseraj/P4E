@@ -111,18 +111,49 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 #     print(x)
 
 
-num_list = 100
-e_list = []
-o_list = []
-re_num = []
-for num in range(num_list):
-    if(num % 5 == 0):
-        e_list.append(num)
-    elif (num % 3 == 0):
-        o_list.append(num)
-    else:
-        re_num.append(num)
-print(e_list)
-print(o_list)
-print(re_num)
-print("Check if you have all the numbers by suming up the length",len(e_list) + len(o_list) + len(re_num))
+# num_list = 1000
+# e_list = []
+# o_list = []
+# re_num = []
+# for num in range(0,num_list, 5):
+#     if(num % 10 == 0):
+#         e_list.append(num)
+#     elif (num % 3 == 0):
+#         o_list.append(num)
+#     else:
+#         re_num.append(num)
+# print(e_list)
+# print(o_list)
+# print(re_num)
+# print("Check if you have all the numbers by suming up the length",len(e_list) + len(o_list) + len(re_num))
+
+# even_numbers = []
+
+# for num in range(1, 21):
+#     if(num % 2 == 0):
+#         even_numbers.append(num)
+# print(even_numbers)
+
+# 
+
+# name = input("What is your name? ")
+# let_count = 0
+# for let in name: 
+#     print(let)
+#     let_count += 1
+# print("count is",let_count)
+
+# x = 5
+# while(x > 0):
+#     print(x)
+#     x -= 1
+
+
+counter = 0    
+x = 2 
+while(x < 10000):
+    print("is is now:", x)
+    counter += 1
+    x = x *2 
+    print("x has become now: ", x )
+print("the count of operation is", counter)
