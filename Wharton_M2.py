@@ -149,11 +149,41 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 #     x -= 1
 
 
-counter = 0    
-x = 2 
-while(x < 10000):
-    print("is is now:", x)
+# counter = 0    
+# x = 2 
+# while(x < 10000):
+#     print("is is now:", x)
+#     counter += 1
+#     x = x *2 
+#     print("x has become now: ", x )
+# print("the count of operation is", counter)
+
+
+# ##While loop example 
+# counter = 1 
+# maximum_try = 10
+# answer = input("What is the biggest selling album of all time? ")
+# while(answer != "Thriller"):
+#     print("Sorry! The naswer is not correct, try again")
+#     counter += 1
+#     answer = input("What is the ablum? ")
+#     print("your try is ", counter)
+# print("finaly you got the naswer after", counter, "guessings.", "The answer is", answer)
+
+
+##While loop example 
+counter = 1 
+maximum_try = 5
+answer = input("What is the biggest selling album of all time? ")
+while(answer != "Thriller"):
+    print("Sorry! The naswer is not correct, try again")
     counter += 1
-    x = x *2 
-    print("x has become now: ", x )
-print("the count of operation is", counter)
+    answer = input("What is the ablum? ")
+    print("your try is ", counter)
+    if (counter == maximum_try and answer != "Thriller"):
+        print("sorry, you lost all your tries")
+        break
+    elif(counter == maximum_try - 1 and answer != "Thriller"):
+        print("Warning, Wharning, You only got one last chance left!")
+    elif(answer == "Thriller" and counter == maximum_try):
+        print("finaly you got the naswer after", counter, "guessings.", "The answer is", answer)
