@@ -13,5 +13,4 @@ print(x)
 x = x + 2
 print(x)
 
-"So all of this is the begi"
-"nning and the time that I need to make sure how can i learn the program "
+########"So all of this is the beginning and the time that I need to make sure how can i learn the program "
