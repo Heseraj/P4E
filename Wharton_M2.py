@@ -172,18 +172,89 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 
 
 ##While loop example 
-counter = 1 
-maximum_try = 5
-answer = input("What is the biggest selling album of all time? ")
-while(answer != "Thriller"):
-    print("Sorry! The naswer is not correct, try again")
-    counter += 1
-    answer = input("What is the ablum? ")
-    print("your try is ", counter)
-    if (counter == maximum_try and answer != "Thriller"):
-        print("sorry, you lost all your tries")
-        break
-    elif(counter == maximum_try - 1 and answer != "Thriller"):
-        print("Warning, Wharning, You only got one last chance left!")
-    elif(answer == "Thriller" and counter == maximum_try):
-        print("finaly you got the naswer after", counter, "guessings.", "The answer is", answer)
+# counter = 1 
+# maximum_try = 5
+# answer = input("What is the biggest selling album of all time? ")
+# while(answer != "Thriller"):
+#     print("Sorry! The naswer is not correct, try again")
+#     counter += 1
+#     answer = input("What is the ablum? ")
+#     print("your try is ", counter)
+#     if (counter == maximum_try and answer != "Thriller"):
+#         print("sorry, you lost all your tries")
+#         break
+#     elif(counter == maximum_try - 1 and answer != "Thriller"):
+#         print("Warning, Wharning, You only got one last chance left!")
+#     elif(answer == "Thriller" and counter == maximum_try):
+#         print("finaly you got the naswer after", counter, "guessings.", "The answer is", answer)
+
+# # breaking while loop
+# x = 1
+# while x <= 10:
+#     if (x == 5):
+#         break
+#     print("x is now", x)
+#     x += 1
+
+# # the continue function
+# x = 1 
+# for x in range(1,30):
+#     if x == 5:
+#         continue
+#     print("x is now", x)
+#     x += 1
+
+# # Nested loops
+# for i in range(1, 11):
+#     for j in range(1, 11):
+#         print("{} * {} = {}".fomrat(i, j, i * j))
+
+# #working with lists
+# list_1 = ["dog", "cat", 789, "book", ["extract me please",11, 20, "sea"]]
+# # print(list_1[1])
+
+# # print(list_1[4][0][9])
+# # # print(list_1[2])
+# # print(list_1[4][0])
+
+# print(list_1.index("cat"))
+
+#slicing a list
+# my_list = [1, 2, 3, 4, 5, ["hello", "How", "was", 11, "th", "day"], 6, 9, 11, 10, 18]
+# # print(my_list[4:7])
+# # print(my_list[4:6])
+# # print(my_list[3:])
+# # print(my_list[:6])
+# print(my_list[:-5])
+
+# # replayce least of elements 
+# odd_list = [2, 4, 6, 8, 10]
+
+# # for num in range(odd_list):
+# # 	if num / 2 == 0:
+# # 		num += 1 
+# # 		odd_list[num] = odd_list[num]
+# # print(odd_list)
+
+# odd_list[:4] = [1, 3, 5, 7]
+# print(odd_list)
+
+# Practice 
+
+# name = input("What is your name? ")
+# print(name[0:4])
+
+#More practice
+# name = input("What is your name? ")
+# # f_name = input( "of the", name, "what is your first name ")
+# in_name = name.index(" ")
+# print(name[:in_name])
+
+
+#Dictionary 
+my_dictionary = {"age": 40, "name": "Mosa", "height": 6*12+3}
+print(my_dictionary)
+
+print(type(my_dictionary))
+
+
