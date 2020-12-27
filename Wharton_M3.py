@@ -118,12 +118,15 @@ def greater_than (x, y):
 
 # print(customer1)
 
-# import random
+import random
 
-# restaurants = ["Vetri", "Barbuzzo", "Vedge", "Laurel", "McDonalds", "Burger King", "Wndyees"]
-# def pick_restaurant():
-# 	rand_int = random.randint(1, len(restaurants))
-# 	return restaurants[rand_int]
+restaurants = ["Vetri", "Barbuzzo", "Vedge", "Laurel", "McDonalds", "Burger King", "Wndyees"]
+def pick_restaurant():
+ 	rand_int = random.randint(0, len(restaurants) - 1 )
+ 	return restaurants[rand_int]
+
+restaurants.append("KFC")
+print(restaurants)
 
 print(pick_restaurant())
 print(pick_restaurant())
