@@ -51,7 +51,7 @@ Created on Fri Dec 25 12:17:21 2020
 # numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # for x in numbers:
 #     print(x)
-    
+
 # numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # for x in numbers:
 #     if(x == 10):
@@ -99,7 +99,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 #         print(planet, "is the closes to the Sun")
 #     else:
 #         print(planet, "is a planet!")
-        
+
 
 # month = "February"
 # for letter in month:
@@ -134,11 +134,11 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 #         even_numbers.append(num)
 # print(even_numbers)
 
-# 
+#
 
 # name = input("What is your name? ")
 # let_count = 0
-# for let in name: 
+# for let in name:
 #     print(let)
 #     let_count += 1
 # print("count is",let_count)
@@ -149,18 +149,18 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 #     x -= 1
 
 
-# counter = 0    
-# x = 2 
+# counter = 0
+# x = 2
 # while(x < 10000):
 #     print("is is now:", x)
 #     counter += 1
-#     x = x *2 
+#     x = x *2
 #     print("x has become now: ", x )
 # print("the count of operation is", counter)
 
 
-# ##While loop example 
-# counter = 1 
+# ##While loop example
+# counter = 1
 # maximum_try = 10
 # answer = input("What is the biggest selling album of all time? ")
 # while(answer != "Thriller"):
@@ -171,8 +171,8 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 # print("finaly you got the naswer after", counter, "guessings.", "The answer is", answer)
 
 
-##While loop example 
-# counter = 1 
+##While loop example
+# counter = 1
 # maximum_try = 5
 # answer = input("What is the biggest selling album of all time? ")
 # while(answer != "Thriller"):
@@ -197,17 +197,17 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 #     x += 1
 
 # # the continue function
-# x = 1 
+# x = 1
 # for x in range(1,30):
 #     if x == 5:
 #         continue
 #     print("x is now", x)
 #     x += 1
 
-# # Nested loops
-# for i in range(1, 11):
-#     for j in range(1, 11):
-#         print("{} * {} = {}".fomrat(i, j, i * j))
+# Nested loops
+for i in range(1, 11):
+    for j in range(1, 11):
+        print("{0} * {1} : {2}".fomrat(i, j, i * j))
 
 # #working with lists
 # list_1 = ["dog", "cat", 789, "book", ["extract me please",11, 20, "sea"]]
@@ -227,19 +227,19 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 # # print(my_list[:6])
 # print(my_list[:-5])
 
-# # replayce least of elements 
+# # replayce least of elements
 # odd_list = [2, 4, 6, 8, 10]
 
 # # for num in range(odd_list):
 # # 	if num / 2 == 0:
-# # 		num += 1 
+# # 		num += 1
 # # 		odd_list[num] = odd_list[num]
 # # print(odd_list)
 
 # odd_list[:4] = [1, 3, 5, 7]
 # print(odd_list)
 
-# Practice 
+# Practice
 
 # name = input("What is your name? ")
 # print(name[0:4])
@@ -251,10 +251,10 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 # print(name[:in_name])
 
 
-#Dictionary 
+#Dictionary
 my_dictionary = {"age": 40, "name": "Mosa", "height": 6*12+3}
 print(my_dictionary)
 
 print(type(my_dictionary))
 
-
+#Some practices for the Dict portion is left that I didn't do. I also need to check the homework for module 2
