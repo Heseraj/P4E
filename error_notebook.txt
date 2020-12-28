@@ -1,0 +1,41 @@
+[I 22:51:09.487 NotebookApp] The port 8888 is already in use, trying another port.
+[I 22:51:09.663 NotebookApp] JupyterLab extension loaded from C:\Users\HeSer\anaconda3\lib\site-packages\jupyterlab
+[I 22:51:09.664 NotebookApp] JupyterLab application directory is C:\Users\HeSer\anaconda3\share\jupyter\lab
+[I 22:51:09.669 NotebookApp] Serving notebooks from local directory: C:\Users\HeSer
+[I 22:51:09.669 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 22:51:09.669 NotebookApp] http://localhost:8889/?token=5f3fe4b7a5db192b37ea82d34dd9a7150ad7377c336e09c5
+[I 22:51:09.669 NotebookApp] or http://127.0.0.1:8889/?token=5f3fe4b7a5db192b37ea82d34dd9a7150ad7377c336e09c5
+[I 22:51:09.670 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:51:09.740 NotebookApp] 
+
+To access the notebook, open this file in a browser:
+file:///C:/Users/HeSer/AppData/Roaming/jupyter/runtime/nbserver-16532-open.html
+Or copy and paste one of these URLs:
+http://localhost:8889/?token=5f3fe4b7a5db192b37ea82d34dd9a7150ad7377c336e09c5
+or http://127.0.0.1:8889/?token=5f3fe4b7a5db192b37ea82d34dd9a7150ad7377c336e09c5
+[I 22:51:17.475 NotebookApp] Creating new notebook in 
+[I 22:51:19.606 NotebookApp] Kernel started: 03501f7d-407a-4f57-ad48-6a660d0dc602, name: python3
+Traceback (most recent call last):
+File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.2544.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 193, in _run_module_as_main
+"__main__", mod_spec)
+File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.2544.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 85, in _run_code
+exec(code, run_globals)
+File "C:\Users\HeSer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\ipykernel_launcher.py", line 16, in 
+app.launch_new_instance()
+File "C:\Users\HeSer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\traitlets\config\application.py", line 844, in launch_instance
+app.initialize(argv)
+File "C:\Users\HeSer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\traitlets\config\application.py", line 87, in inner
+return method(app, *args, **kwargs)
+File "C:\Users\HeSer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\ipykernel\kernelapp.py", line 570, in initialize
+self.write_connection_file()
+File "C:\Users\HeSer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\ipykernel\kernelapp.py", line 232, in write_connection_file
+iopub_port=self.iopub_port, control_port=self.control_port)
+File "C:\Users\HeSer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jupyter_client\connect.py", line 138, in write_connection_file
+with secure_write(fname) as f:
+File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.2544.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 112, in __enter__
+return next(self.gen)
+File "C:\Users\HeSer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jupyter_core\paths.py", line 461, in secure_write
+win32_restrict_file_to_user(fname)
+File "C:\Users\HeSer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\jupyter_core\paths.py", line 387, in win32_restrict_file_to_user
+import win32api
+ImportError: DLL load failed: The specified module could not be found.
