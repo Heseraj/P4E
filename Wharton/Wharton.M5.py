@@ -90,4 +90,4 @@ rand_divebar = diverbars_4rating_Iv[rand_int:rand_int + 1]
 print("Here's one with a", rand_divebar["stars"].iloc[0], "rating.")
 print(rand_divebar[["name", "stars", "review_count"]])
 
-
+# start the module 5 from 40th minutes 

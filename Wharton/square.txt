@@ -1,0 +1,11 @@
+ for number in range(13):
+     square = number * number
+     print(square)
+
+
+##This is to check if what I do is what I think I do!
+## So far I am partially there. 
+## so the question is how to add functions and formulas to the text, when I want to write a file. 
+
+## So, the way I understand now, it is better to learn the writing portion very well. As I wrote everything in a text file. What would happen if i later save the file in a py format and try to read or write the file in a separate text file. 
+
